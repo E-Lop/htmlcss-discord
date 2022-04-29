@@ -44,7 +44,6 @@ img {
 
 .nav {
   width: 60%;
-  border: 1px dotted black;
 }
 
 /* contenitore link di navigazione */
@@ -161,6 +160,17 @@ section {
 .txt-space {
   width: 34%;
 }
+
+h2 {
+  padding: 40px;
+  line-height: 1.5;
+  font-size: 32px;
+}
+section p {
+  padding: 0 40px;
+  font-size: 18px;
+}
+
 .blue {
   background-color: #1e90ff;
   border: 1px dotted black;
