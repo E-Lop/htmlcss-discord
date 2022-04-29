@@ -171,6 +171,13 @@ section p {
   font-size: 18px;
 }
 
+#text-one {
+  padding-bottom: 30px;
+}
+#text-two {
+  padding-bottom: 220px;
+}
+
 .blue {
   background-color: #1e90ff;
   border: 1px dotted black;
