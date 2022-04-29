@@ -18,14 +18,9 @@ img {
   display: block;
 }
 
-.celeste {
-  background-color: #add8e6;
-  height: 4px;
-}
-
 /* Header */
 .header-top {
-  background-color: #add8e6;
+  background-color: #255ee9;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,16 +37,13 @@ img {
 
 .header-content div {
   padding: 10px;
-  /* test */
-  background-color: #daa520;
 }
 .logo {
-  width: 25%;
-  border: 1px dotted black;
+  width: 20%;
 }
 
 .nav {
-  width: 50%;
+  width: 60%;
   border: 1px dotted black;
 }
 
@@ -70,13 +62,24 @@ li {
 /* rimozione sottolineatura link di navigazione */
 .nav ul li a {
   text-decoration: none;
-  color: inherit;
+  color: white;
 }
 
 .login {
-  width: 25%;
-  border: 1px dotted black;
+  width: 20%;
   text-align: right;
+}
+
+.btn-small {
+  width: 80px;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: white;
+}
+
+button a {
+  text-decoration: none;
+  color: black;
 }
 
 /* spazio per jumbotron */
