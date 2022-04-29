@@ -11,6 +11,11 @@
 .container {
   width: 60%;
   margin: auto;
+  font-family: 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+img {
+  width: 100;
+  display: block;
 }
 
 .celeste {
@@ -119,12 +124,12 @@ section {
 }
 
 /* box grande dentro section */
-.big {
+.img-space {
   width: 66%;
 }
 
 /* box piccolo dentro section */
-.little {
+.txt-space {
   width: 34%;
 }
 .blue {
