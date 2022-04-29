@@ -1,0 +1,212 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fredoka', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* COMMON */
+.container {
+  width: 60%;
+  margin: auto;
+}
+
+.celeste {
+  background-color: #add8e6;
+  height: 4px;
+}
+
+/* Header */
+.header-top {
+  background-color: #add8e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* TEST */
+  height: 100px;
+}
+
+/* contenitore generale elementi header */
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-content div {
+  padding: 10px;
+  /* test */
+  background-color: #daa520;
+}
+.logo {
+  width: 25%;
+  border: 1px dotted black;
+}
+
+.nav {
+  width: 50%;
+  border: 1px dotted black;
+}
+
+/* contenitore link di navigazione */
+.nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+
+/* spaziatura tra link di navigazione */
+li {
+  padding: 0 10px;
+}
+
+/* rimozione sottolineatura link di navigazione */
+.nav ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.login {
+  width: 25%;
+  border: 1px dotted black;
+  text-align: right;
+}
+
+/* spazio per jumbotron */
+.jumbotron {
+  display: flex;
+  background-color: #00008b;
+  justify-content: center;
+  align-items: center;
+  /* test */
+  height: 500px;
+}
+
+/* box per claim */
+.adv {
+  width: 45%;
+  height: 450px;
+  background-color: #ee82ee;
+  border: 1px dotted black;
+}
+
+/* MAIN */
+
+.grey {
+  background-color: #d3d3d3;
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* TEST */
+  height: 600px;
+}
+.feature {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.columns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* box grande dentro section */
+.big {
+  width: 66%;
+}
+
+/* box piccolo dentro section */
+.little {
+  width: 34%;
+}
+.blue {
+  background-color: #1e90ff;
+  border: 1px dotted black;
+
+  /* test */
+  height: 400px;
+}
+.pink {
+  background-color: #ffc0cb;
+  border: 1px dotted black;
+
+  /* test */
+  height: 400px;
+}
+.green {
+  background-color: #228b22;
+  border: 1px dotted black;
+
+  /* test */
+  height: 500px;
+}
+
+/* modifica all'altezza generale di section */
+.tall {
+  height: 800px;
+}
+
+/* FOOTER */
+
+.dark {
+  background-color: #23272a;
+}
+
+.salmon {
+  background-color: #f08080;
+  width: 30%;
+  border: 1px dotted black;
+
+  /* test */
+  height: 400px;
+}
+
+.teal {
+  background-color: #20b2aa;
+  width: 70%;
+  border: 1px dotted black;
+  display: flex;
+
+  /* test */
+  height: 400px;
+}
+
+.sitemap {
+  width: calc(100% / 4);
+  border: 1px dotted white;
+}
+
+.bottom-box {
+  background-color: #58b092;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* test */
+  height: 75px;
+}
+
+/* modifica altezza generale di section */
+.tiny {
+  height: 100px;
+}
+
+.logo-img {
+  background-color: pink;
+  padding: 10px;
+  border: 1px dotted black;
+}
+
+.app-button {
+  background-color: pink;
+  padding: 10px;
+  border: 1px dotted black;
+}
