@@ -8,11 +8,14 @@
 }
 
 /* COMMON */
+* {
+  font-family: 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
 .container {
   width: 60%;
   margin: auto;
-  font-family: 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+
 img {
   width: 100%;
   display: block;
@@ -206,7 +209,7 @@ h3 {
 }
 
 .not-so-tall {
-  height: 700px;
+  height: 650px;
 }
 
 /* FOOTER */
@@ -269,12 +272,13 @@ h3 {
   color: white;
 }
 
-.prominent {
+/* colore primo elemento lista */
+.sitemap ul li:first-of-type a {
   color: #6d87da;
 }
 
 .bottom-box {
-  background-color: #58b092;
+  border-top: 1px solid #4f5d8c;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -289,13 +293,13 @@ h3 {
 }
 
 .logo-img {
-  background-color: pink;
   padding: 10px;
-  border: 1px dotted black;
 }
 
 .app-button {
-  background-color: pink;
   padding: 10px;
-  border: 1px dotted black;
+}
+
+.app-button button a {
+  color: white;
 }
