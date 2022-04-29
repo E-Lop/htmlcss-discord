@@ -87,8 +87,15 @@ li {
 
 .btn-black {
   background-color: black;
-  color: white;
   margin-left: 20px;
+}
+
+.btn-blue {
+  background-color: #7289da;
+}
+
+.btn-wh-link {
+  color: white;
 }
 
 button a {
@@ -181,31 +188,21 @@ section p {
   padding-bottom: 200px;
 }
 
-.blue {
-  background-color: #1e90ff;
-  border: 1px dotted black;
-
-  /* test */
-  height: 400px;
+.centrato {
+  text-align: center;
 }
-.pink {
-  background-color: #ffc0cb;
-  border: 1px dotted black;
 
-  /* test */
-  height: 400px;
-}
 .green {
-  background-color: #228b22;
-  border: 1px dotted black;
-
   /* test */
-  height: 500px;
+  height: 800px;
+}
+h3 {
+  margin: 30px 0;
 }
 
 /* modifica all'altezza generale di section */
 .tall {
-  height: 800px;
+  height: 1000px;
 }
 
 /* FOOTER */
