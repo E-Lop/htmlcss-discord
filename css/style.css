@@ -14,7 +14,7 @@
   font-family: 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 img {
-  width: 100;
+  width: 100%;
   display: block;
 }
 
@@ -75,6 +75,21 @@ li {
   border-radius: 20px;
   padding: 10px;
   background-color: white;
+  border: none;
+}
+
+.btn-big {
+  border-radius: 35px;
+  padding: 20px;
+  background-color: white;
+  border: none;
+  font-size: 20px;
+}
+
+.btn-black {
+  background-color: black;
+  color: white;
+  margin-left: 20px;
 }
 
 button a {
@@ -88,16 +103,27 @@ button a {
   background-color: #00008b;
   justify-content: center;
   align-items: center;
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
   /* test */
-  height: 500px;
+  height: 680px;
 }
 
-/* box per claim */
+/* box testo jumbotron */
 .adv {
+  text-align: center;
   width: 45%;
   height: 450px;
-  background-color: #ee82ee;
-  border: 1px dotted black;
+  color: white;
+}
+
+h1 {
+  font-size: 50px;
+  padding: 30px 0;
+}
+.adv p {
+  font-size: 26px;
+  padding: 30px;
 }
 
 /* MAIN */
